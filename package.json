@@ -1,0 +1,25 @@
+{
+  "name": "clothing-app-backend",
+  "version": "1.0.0",
+  "description": "Backend API for clothing shopping app",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": ["clothing", "shopping", "api"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "mongodb": "^5.8.0",
+    "dotenv": "^16.3.1",
+    "stripe": "^13.8.0",
+    "bcryptjs": "^2.4.3",
+    "jsonwebtoken": "^9.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
